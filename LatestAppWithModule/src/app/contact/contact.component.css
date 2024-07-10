@@ -1,0 +1,9 @@
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px;
+    height: 100vh; /* Set the height to 100vh */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
