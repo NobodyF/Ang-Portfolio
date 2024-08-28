@@ -6,8 +6,6 @@ import { Component, ElementRef } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  title: string = "random";
-
   constructor(private elRef: ElementRef) {}
 
   scrollTo(section: string) {
