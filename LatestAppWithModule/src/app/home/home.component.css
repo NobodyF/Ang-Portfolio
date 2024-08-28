@@ -49,3 +49,9 @@
     margin-top: 100px;
 }
 
+.homesvg {
+    position: absolute; /* Absolute positioning within #about */
+    width: 650px;
+    bottom: 35vh; /* Distance from the bottom */
+    right: 25vh;
+  }
