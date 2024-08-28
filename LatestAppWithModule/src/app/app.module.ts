@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { StickyNavComponent } from './sticky-nav/sticky-nav.component';
+import { HyperTextComponent } from './hyper-text/hyper-text.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { StickyNavComponent } from './sticky-nav/sticky-nav.component';
     ContactComponent,
     HeaderComponent,
     HomeComponent,
-    StickyNavComponent
+    StickyNavComponent,
+    HyperTextComponent
   ],
   imports: [
     BrowserModule,

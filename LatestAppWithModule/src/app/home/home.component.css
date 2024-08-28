@@ -11,7 +11,7 @@
     height: 400px; /* Adjust the height */
     border-radius: 50%; /* Make the container round */
     overflow: hidden; /* Ensure content outside the border is hidden */
-    border: 4px solid #ccc; /* Add border styling */
+    border: 4px solid #ffffff; /* Add border styling */
 }
 
 .main-image img {

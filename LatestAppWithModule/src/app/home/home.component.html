@@ -1,25 +1,21 @@
-<div id="home">
-    <!-- Your content goes here -->
+<div id="home" class="container">
     <div class="content">
-        <div class="main-image">
-            <img src="/src/assets/kitten.png" alt="Lime" width="400" height="400" >
-        </div>
-        <article class="sometext" data-theme="lime">
-            <div class="content dotted-square" data-theme="lime"> 
-                <h1 aria-label="Frontend Developer">
-                    <span aria-hidden="true">
-                        Blockchain
-                        <br>
-                        Developer.
-                        
-                    </span>
-                </h1>
-                <p>
-                    Passion to create smart contracts
-                    <br>
-                    for automating user experiences.
-                </p>
-            </div>
-        </article>
+      <div class="text-wrapper">
+        <h1 aria-label="Blockchain Developer">
+          <span aria-hidden="true">
+            <app-hyper-text [text]="'Blockchain'" [duration]="1000"></app-hyper-text>
+            <app-hyper-text [text]="'Developer.'" [duration]="1000"></app-hyper-text>
+          </span>
+        </h1>
+        <p class="description">
+          Passion to create smart contracts
+          <br />
+          for automating user experiences.
+        </p>
+      </div>
+      <div class="main-image">
+        <img src="https://cdn.discordapp.com/attachments/891298256791957544/1110555863095189695/IMG_2793.jpg?ex=66d073be&is=66cf223e&hm=a167d0341996ee9cf43816a3e7ab32a110dc5f4f113f7c151bdc8151b1112145&" alt="Lime" />
+      </div>
     </div>
-</div>
+  </div>
+  
